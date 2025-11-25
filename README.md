@@ -2,7 +2,7 @@
 
 A beautiful, responsive link directory built with Django that allows you to create a public page of links with Font Awesome icons. Perfect for personal link hubs, resource directories, or team bookmark collections.
 
-![LinkHub](https://img.shields.io/badge/Django-4.2-green) ![License](https://img.shields.io/badge/License-MIT-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![LinkHub](https://img.shields.io/badge/Django-4.2-green) ![License](https://img.shields.io/badge/License-MIT-blue) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![Project](https://img.shields.io/badge/Learning-Django-violet)
 
 ## ✨ Features
 
