@@ -1,0 +1,24 @@
+[Unit]
+Description=__APP__ Django application
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=__INSTALL_DIR__
+Environment="PATH=__INSTALL_DIR__/venv/bin"
+Environment="DJANGO_SETTINGS_MODULE=linkdir.settings"
+ExecStart=__INSTALL_DIR__/venv/bin/gunicorn \
+    --access-logfile - \
+    --error-logfile - \
+    --workers 3 \
+    --bind unix:__INSTALL_DIR__/linkhub.sock \
+    linkdir.wsgi:application
+Restart=always
+RestartSec=5
+
+StandardOutput=file:/var/log/__APP__/access.log
+StandardError=file:/var/log/__APP__/error.log
+
+[Install]
+WantedBy=multi-user.target
