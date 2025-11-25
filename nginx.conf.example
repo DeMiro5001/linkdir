@@ -4,7 +4,7 @@
 
     location / {
         include proxy_params;
-        proxy_pass http://unix:__APP__/linkhub.sock;
+        proxy_pass http://unix:__INSTALL_DIR__/linkhub.sock;
         proxy_redirect    off;
         proxy_set_header  Host $host;
         proxy_set_header  X-Real-IP $remote_addr;
