@@ -26,7 +26,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Copy CI env
-      run: cp .env.ci .env
+      run: cp env.ci .env
     - name: Run Tests
       run: |
         python manage.py test
