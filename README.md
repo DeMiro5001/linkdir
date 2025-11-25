@@ -15,6 +15,21 @@ A beautiful, responsive link directory built with Django that allows you to crea
 - 🔍 **Search** - Client-side search functionality
 - 🗂️ **Categories** - Organize links into categories with custom colors
 
+## 📸 Screenshots
+
+### Admin
+
+![Categories](https://github.com/DeMiro5001/linkdir/blob/0abbd3d1b9784e7bfc496bc694bd49c05a650527/screenshots/linkhub_admin_categories.png)
+
+![Links](https://github.com/DeMiro5001/linkdir/blob/0abbd3d1b9784e7bfc496bc694bd49c05a650527/screenshots/linkhub_admin_links.png)
+
+### Homepage
+
+![Homepage](https://github.com/DeMiro5001/linkdir/blob/0abbd3d1b9784e7bfc496bc694bd49c05a650527/screenshots/linkhub_homepage.png)
+
+![Authenticated](https://github.com/DeMiro5001/linkdir/blob/0abbd3d1b9784e7bfc496bc694bd49c05a650527/screenshots/linkhub_homepage_authenticated.png)
+
+
 ## 🚀 Quick Start
 
 ### Prerequisites
