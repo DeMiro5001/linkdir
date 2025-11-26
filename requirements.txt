@@ -13,6 +13,7 @@ cryptography==46.0.3
 deptry==0.23.1
 distlib==0.4.0
 Django==5.2.7
+django-colorfield==0.14.0
 dulwich==0.24.8
 environ==1.0
 fastjsonschema==2.21.2
@@ -34,6 +35,7 @@ more-itertools==10.8.0
 msgpack==1.1.2
 packaging==25.0
 pbs-installer==2025.10.31
+pillow==12.0.0
 pkginfo==1.12.1.2
 platformdirs==4.5.0
 poetry==2.2.1
