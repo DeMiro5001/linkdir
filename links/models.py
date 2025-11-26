@@ -1,16 +1,13 @@
 from django.db import models
 from django.utils.html import mark_safe
 import re
+from colorfield.fields import ColorField
 
 class LinkCategory(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True)
     order = models.IntegerField(default=0)
-    color = models.CharField(
-        max_length=7, 
-        default='#0d6efd',
-        help_text='Hex color for category (e.g., #0d6efd)'
-    )
+    color = ColorField(format="hexa")
     
     class Meta:
         verbose_name_plural = "Categories"
